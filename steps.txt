@@ -14,3 +14,7 @@
    pip install -r requirements.txt
 
 7. verify LangChain installation
+
+
+to install any new library in venv:
+python -m pip install library_name
