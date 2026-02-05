@@ -1,26 +1,32 @@
-# LangChain Core
+# LangChain core + extensions
 langchain
 langchain-core
+langchain-community
+langchain-classic
+langchain-experimental
+langchain-text-splitters
 
-# OpenAI Integration
-langchain-openai
-openai
-
-# Anthropic Integration
-langchain-anthropic
-
-# Google Gemini (PaLM) Integration
+# Model providers
 langchain-google-genai
 google-generativeai
-
-# Hugging Face Integration
 langchain-huggingface
 transformers
 huggingface-hub
 
-# Environment Variable Management
-python-dotenv
+# Tools and retrievers
+duckduckgo-search
+wikipedia
+faiss-cpu
 
-# Machine Learning Utilities
+# Document loaders / parsing
+pypdf
+beautifulsoup4
+
+# Utilities
+python-dotenv
+requests
+pydantic
+
+# Optional ML helpers
 numpy
 scikit-learn
